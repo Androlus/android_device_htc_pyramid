@@ -65,7 +65,3 @@ BOARD_CUSTOM_GRAPHICS:= ../../../device/htc/pyramid/recovery/graphics.c
 BOARD_USES_MMCUTILS := true
 BOARD_HAS_NO_MISC_PARTITION := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-
-# Androlus version
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.modversion=Alpha 5
