@@ -20,6 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # common msm8660 configs
 $(call inherit-product, device/htc/msm8660-common/msm8660.mk)
 
+# Androlus configs
+$(call inherit-product, vendor/androlus/config/androlus.mk)
+
 DEVICE_PACKAGE_OVERLAYS += device/htc/pyramid/overlay
 
 # GPS and Light
